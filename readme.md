@@ -45,7 +45,7 @@ This website was deployed through Github Pages. In order to run the code locally
 
 ### Credits
 
-•The text for Band Page was copied from the Wikipedia page.
+•The text for Band Page was copied from the [Wikipedia page](https://en.wikipedia.org/wiki/Pink_Floyd).
 
 •The photos used in this site were obtained from googling album covers and Pink Floyd band pictures.
 
