@@ -37,7 +37,7 @@ The project uses bootstrap to simplify CSS.
 
 ### Testing
 
-I tested this out the old fashion way.
+I tested this out the old fashion way. One page at a time using a visual studio extention called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### Deployment
 
@@ -46,11 +46,16 @@ This website was deployed through Github Pages. In order to run the code locally
 ### Credits
 
 •The text for Band Page was copied from the Wikipedia page.
-Media
 
 •The photos used in this site were obtained from googling album covers and Pink Floyd band pictures.
 
 •The Nav bar styling was taken from the Whiskey Drop bootstrap practice lesson.
+
+•The calendar snippit came from bootsnip user [horseng](https://bootsnipp.com/snippets/VgzeR)
+
+•The contact snippit came from bootsnip user [flaviub](https://bootsnipp.com/snippets/Q0k96)
+
+•The social media icons come from [Fontawesome](https://fontawesome.com/)
 
 ### Acknowledgements
 
