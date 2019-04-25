@@ -1,9 +1,8 @@
 # Band Website - Pink Floyd
 
-## Favorite Band - Pink Floyd
+## Milstone Project #1 - Pink Floyd
 
-One or two paragraphs providing an overview of your project.
-Essentially, this part is your sales pitch.
+The milestone project of creating a band website for a 60's band was a joy! I love that era of rock and I hope it shows that Pink Floyd is one of my absolute favorites. This milestone project was created using Visual Studio Code. Rock on!🎧
 
 ### UX
 
@@ -37,7 +36,7 @@ The project uses bootstrap to simplify CSS.
 
 ### Testing
 
-I tested this out the old fashion way.
+I tested this out the old fashion way. One page at a time using a visual studio extention called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### Deployment
 
@@ -45,12 +44,17 @@ This website was deployed through Github Pages. In order to run the code locally
 
 ### Credits
 
-•The text for Band Page was copied from the Wikipedia page.
-Media
+•The text for Band Page was copied from the [Wikipedia page](https://en.wikipedia.org/wiki/Pink_Floyd).
 
 •The photos used in this site were obtained from googling album covers and Pink Floyd band pictures.
 
 •The Nav bar styling was taken from the Whiskey Drop bootstrap practice lesson.
+
+•The calendar snippit came from bootsnip user [horseng](https://bootsnipp.com/snippets/VgzeR)
+
+•The contact snippit came from bootsnip user [flaviub](https://bootsnipp.com/snippets/Q0k96)
+
+•The social media icons come from [Fontawesome](https://fontawesome.com/)
 
 ### Acknowledgements
 
