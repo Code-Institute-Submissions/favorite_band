@@ -1,135 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Pink Floyd The message</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Font Awesome -->
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<!-- Roboto Font -->
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Roboto Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/static/style.css">
-
 </head>
+
 <body>
-       <!-- nav bar code -->
-       <div class="container-fluid navalert-container ">
-          <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark">
-            <!-- <div class="container-fluid"> -->
-              <div class="navbar-header">
-                <a class="navbar-brand" href="https://thestarvingcoder.github.io/favorite_band/index.html">Pink Floyd</a>
-              </div>
-               <!-- Toggler/collapsible Button -->
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="fa fa-bars fa-2"></span>
-                </button>
-              <!--  -->
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                
-              <ul class="nav navbar-nav navbar-inverse">
-                <li><a href="https://thestarvingcoder.github.io/favorite_band/band.html">The Band</a></li>
-                <li><a href="https://thestarvingcoder.github.io/favorite_band/events.html">Events</a></li>
-                <li><a href="https://thestarvingcoder.github.io/favorite_band/oldbutgold.html">Old but Gold</a></li>
-                <li><a href="https://thestarvingcoder.github.io/favorite_band/contact.html">Contact Us!</a></li>
-                <li><a href="https://thestarvingcoder.github.io/favorite_band/mockup.html">Mock up Page</a></li>
-              </ul>
-              </div>
-                
-            </div>
-          </nav>
-          </div>
-<!-- Contact Form -->
+  <!-- nav bar code -->
+  <!-- <div class="container-fluid navalert-container "> -->
+  <nav class="navbar navbar-inverse navbar-expand-md bg-dark navbar-dark container-fluid">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="https://thestarvingcoder.github.io/favorite_band/index.html">Pink Floyd</a>
+      </div>
+      <!-- Toggler/collapsible Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="fa fa-bars fa-2"></span>
+      </button>
+      <!--  -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav navbar-inverse">
+          <li><a href="https://thestarvingcoder.github.io/favorite_band/band.html">The Band</a></li>
+          <li><a href="https://thestarvingcoder.github.io/favorite_band/events.html">Events</a></li>
+          <li><a href="https://thestarvingcoder.github.io/favorite_band/oldbutgold.html">Old but Gold</a></li>
+          <li><a href="https://thestarvingcoder.github.io/favorite_band/contact.html">Contact Us!</a></li>
+          <li><a href="https://thestarvingcoder.github.io/favorite_band/mockup.html">Mock up Page</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Contact Us Section -->
   <section class="Material-contact-section section-padding section-dark">
-      <div class="container text-center container-center">
-          <div class="row">
-              <!-- Section Title -->
-              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                  <h1 class="section-title text-center">Wish you were here.</h1>
-              </div>
+    <div class="row row-no-gutters">
+      <div class="col-sm-3"></div>
+      <!-- contact form -->
+      <div class="col-sm-6 wow animated fadeInRight " data-wow-delay=".2s">
+        <form class="shake" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+          <h1 class="section-title text-center">Send us a Message.</h1>
+          <!-- Name -->
+          <div class="form-group label-floating">
+            <label class="control-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+            <div class="help-block with-errors"></div>
           </div>
-          <div class="row">
-              <!-- Section Title -->
-              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                <p class="lyrics">So, so you think you can tell
-                    Heaven from Hell,
-                    Blue skys from pain.
-                    Can you tell a green field
-                    From a cold steel rail?
-                    A smile from a veil?
-                    Do you think you can tell?
-                    
-                    And did they get you to trade
-                    Your heros for ghosts?
-                    Hot ashes for trees?
-                    Hot air for a cool breeze?
-                    Cold comfort for change?
-                    And did you exchange
-                    A walk on part in the war
-                    For a lead role in a cage?
-                    
-                    How I wish, how I wish you were here.
-                    We're just two lost souls
-                    Swimming in a fish bowl,
-                    Year after year,
-                    Running over the same old ground.
-                    What have we found?
-                    The same old fears.
-                    Wish you were here.</p>
-              </div>
-
-              <!-- contact form -->
-              <div class="col-md-6 wow animated fadeInRight " data-wow-delay=".2s">
-                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                      <!-- Name -->
-                      <div class="form-group label-floating">
-                        <label class="control-label" for="name">Name</label>
-                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- email -->
-                      <div class="form-group label-floating">
-                        <label class="control-label" for="email">Email</label>
-                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Subject -->
-                      <div class="form-group label-floating">
-                        <label class="control-label">Subject</label>
-                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Message -->
-                      <div class="form-group label-floating">
-                          <label for="message" class="control-label">Message</label>
-                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                      <!-- Form Submit -->
-                      <div class="form-submit mt-5">
-                          <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
-                          <div id="msgSubmit" class="h3 text-center hidden"></div>
-                          <div class="clearfix"></div>
-                      </div>
-                  </form>
-              </div>
+          <!-- email -->
+          <div class="form-group label-floating">
+            <label class="control-label" for="email">Email</label>
+            <input class="form-control" id="email" type="email" name="email" required
+              data-error="Please enter your Email">
+            <div class="help-block with-errors"></div>
           </div>
+          <!-- Subject -->
+          <div class="form-group label-floating">
+            <label class="control-label">Subject</label>
+            <input class="form-control" id="msg_subject" type="text" name="subject" required
+              data-error="Please enter your message subject">
+            <div class="help-block with-errors"></div>
+          </div>
+          <!-- Message -->
+          <div class="form-group label-floating">
+            <label for="message" class="control-label">Message</label>
+            <textarea class="form-control" rows="3" id="message" name="message" required
+              data-error="Write your message"></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+          <!-- Form Submit -->
+          <div class="form-submit mt-5">
+            <button class="btn btn-common" type="submit" id="form-submit"><i
+                class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+            <div id="msgSubmit" class="h3 text-center hidden"></div>
+            <div class="clearfix"></div>
+          </div>
+        </form>
       </div>
-    </section>
+    </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-<footer class="container-fluid center">Thanks to <a href="https://bootsnipp.com/snippets/Q0k96">flaviub</a> for this great contact form. 
-  <i class="fa fa-facebook-square 5x" aria-hidden="false" ></i>
-    <i class="fa fa-spotify" aria-hidden="false" ></i>
-    <i class="fa fa-twitter-square" aria-hidden="false" ></i>
+  <!-- Footer -->
+  <footer class="container-fluid center">Thanks to <a href="https://bootsnipp.com/snippets/Q0k96">flaviub</a> for this
+    great contact form.
+    <i class="fa fa-facebook-square" aria-hidden="false"></i>
+    <i class="fa fa-spotify" aria-hidden="false"></i>
+    <i class="fa fa-twitter-square" aria-hidden="false"></i>
     <i class="fa fa-instagram" aria-hidden="false"></i>
-</footer>
+  </footer>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <!-- JQuery -->
+  <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>

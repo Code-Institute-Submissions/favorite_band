@@ -1,23 +1,23 @@
 /* Calender Style */
-.row-striped:nth-of-type(odd){
+.row-striped:nth-of-type(odd) {
   background-color: #efefef;
   border-left: 4px #000000 solid;
 }
 
-.row-striped:nth-of-type(even){
+.row-striped:nth-of-type(even) {
   background-color: #ffffff;
   border-left: 4px #efefef solid;
 }
 
 .row-striped {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
 /* Container */
 .container {
-    padding: 80px 120px;
-    text-align: center;
-  }
+  padding: 80px 120px;
+  text-align: center;
+}
 
 .center {
   text-align: center;
@@ -30,7 +30,7 @@
 /* Paragraph */
 .p {
   font-family: 'Roboto', sans-serif;
-    font-size: medium;
+  font-size: medium;
 }
 
 .lyrics {
@@ -58,16 +58,18 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;}
+  width: 50%;
+}
 
-.item :active{
+.item :active {
   margin: auto;
-  }
+}
 
-  /* Footer */
-.footer{
+/* Footer */
+.footer {
   text-align: center;
 }
+
 .fa {
   font-size: x-large;
 }
@@ -77,7 +79,9 @@
 .vid {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 30px; height: 0; overflow: hidden;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .vid iframe,
@@ -94,9 +98,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 .navbar-brand {
   font-size: large;
 }
+
 .nav navbar-nav navbar-right {
   font-size: large;
 }
@@ -108,13 +114,13 @@ body {
 }
 
 /* hide hamburger menu */
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .navbar-toggler {
-visibility:hidden;
+    visibility: hidden;
   }
 }
 
-  .navbar .navbar-toggler {
+.navbar .navbar-toggler {
   border: 0;
   margin: 0;
   float: right;
