@@ -90,7 +90,7 @@
   height: 100%;
 }
 
-/* Whiskey drop CSS */
+/* Nav Bar */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -106,9 +106,18 @@ body {
   width: 100%;
   border: 0;
 }
+/* hide hamburger menu */
+@media (max-width: 768px){
+  button#navbar-toggler {
+    display: none;
+  }
+}
 
-.navbar .navbar-toggler {
+  .navbar .navbar-toggler {
   border: 0;
+  margin: 0;
+  float: right;
+  z-index: 1;
 }
 
 .navbar .navbar-brand {
