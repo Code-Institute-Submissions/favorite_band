@@ -14,7 +14,6 @@
 }
 
 /* Container */
-
 .container {
     padding: 80px 120px;
     text-align: center;
@@ -27,6 +26,7 @@
 .container-center {
   margin: auto;
 }
+
 /* Paragraph */
 .p {
   font-family: 'Roboto', sans-serif;
@@ -46,7 +46,7 @@
   font-style: oblique;
 }
 
-.bandinfo {
+.band-info {
   font-size: large;
   font-family: 'Roboto', sans-serif;
 }
@@ -106,10 +106,11 @@ body {
   width: 100%;
   border: 0;
 }
+
 /* hide hamburger menu */
-@media (max-width: 768px){
-  button#navbar-toggler {
-    display: none;
+@media (min-width: 768px){
+  .navbar-toggler {
+visibility:hidden;
   }
 }
 
