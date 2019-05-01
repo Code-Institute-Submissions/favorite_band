@@ -57,6 +57,7 @@ The project uses Google fonts in order to use the Roboto Font.
 The project uses Font Awesome in order to display various icons for social media and the hamburger menu in mobile view.
 
 •Compressor.io
+
 The project used compressor.io to compress the photos since many were very large and took a long time to load.
 
 ### Testing
