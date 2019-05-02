@@ -42,7 +42,7 @@ Jerry Doe wants to check out the mock ups for the website. He can do so by click
 
 •Bootstrap
 
-The project uses bootstrap to simplify CSS and general visual appeal.
+The project uses bootstrap for the navbar and image carousel.
 
 •jQuery
 
