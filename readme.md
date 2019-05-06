@@ -2,7 +2,6 @@
 
 Check out the site [here.](https://thestarvingcoder.github.io/favorite_band/)
 
-
 ## Milestone Project #1 - Pink Floyd
 
 The milestone project of creating a band website for a 60's band was a joy! I love that era of rock and I hope it shows that Pink Floyd is one of my absolute favorites. This milestone project was created using Visual Studio Code. Rock on!🎧
