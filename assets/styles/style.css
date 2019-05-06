@@ -61,6 +61,11 @@
   width: 50%;
 }
 
+.padding {
+  padding: 100px 75px;
+  margin: auto;
+}
+
 .item :active {
   margin: auto;
 }
@@ -68,6 +73,7 @@
 /* Footer */
 .footer {
   text-align: center;
+  padding-top: 40px;
 }
 
 .fa {
