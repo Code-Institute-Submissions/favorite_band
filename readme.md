@@ -1,6 +1,4 @@
-# Band Website - Pink Floyd
-
-Check out the site [here.](https://thestarvingcoder.github.io/favorite_band/)
+# [Band Website - Pink Floyd](https://thestarvingcoder.github.io/favorite_band/)
 
 ## Milestone Project #1 - Pink Floyd
 
@@ -12,16 +10,20 @@ In creating this website I wanted viewers to get what they wanted the music or n
 
 This website is for fans of Pink Floyd. It is for fans to hear their classics and contact them directly. It is for fans to read about the bands history and view photos. While this site is for Pink Floyd I can envision other small bands seeing this and using a similar layout to expand their online audience beyond various social media platforms.
 
-User Story 1:
+**User Story 1:**
+
 John doe wants to view band pics and read their history. He can doe this by clicking on the "Band" page and reading from there.
 
-User Story 2:
+**User Story 2:**
+
 Jane doe wants to view band concert dates. She can do this by clicking on the "Events" page and checking out where they will be soon.
 
-User Story 3:
+**User Story 3:**
+
 Jeff doe wants to hear band back catalog of songs. He can do this by clicking on the "Old but Gold" page and enjoying his favorite songs from there.
 
-User Story 4:
+**User Story 4:**
+
 Jerry Doe wants to check out the mock ups for the website. He can do so by clicking the "Mock up" page in the navbar.
 
 ### Features
@@ -38,34 +40,25 @@ Jerry Doe wants to check out the mock ups for the website. He can do so by click
 
 ### Technologies Used
 
-•HTML
+•**HTML**
 
-•CSS
+•**CSS**
 
-•Bootstrap
+•**Bootstrap** - The project uses bootstrap for the navbar, contact form,events progress bar, events calendar, and image carousel.
 
-The project uses bootstrap for the navbar, contact form,events progress bar, events calender, and image carousel.
+•**jQuery** - The project uses JQuery to simplify DOM manipulation.
 
-•jQuery
+•**Google Fonts** - The project uses Google fonts in order to use the Roboto Font.
 
-The project uses JQuery to simplify DOM manipulation.
+•**Font Awesome** - The project uses Font Awesome in order to display various icons for social media and the hamburger menu in mobile view.
 
-•Google Fonts
-
-The project uses Google fonts in order to use the Roboto Font.
-
-•Font Awesome
-
-The project uses Font Awesome in order to display various icons for social media and the hamburger menu in mobile view.
-
-•Compressor.io
-
-The project used compressor.io to compress the photos since many were very large and took a long time to load.
+•**Compressor io** - The project used compressor.io to compress the photos since many were very large and took a long time to load.
 
 ### Testing
 
 I tested this out the old fashion way. One page at a time using a visual studio extension called [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). This extension lets you view a page as it would be displayed online.
- This site was tested across various browsers and browser sizes. Multiple times I used [W3 validator](https://validator.w3.org/) to debug and remove extra tags in my code. Using the contact page with an invalid email address you will get an message to correct it. Using a correct email and submitting will simply reset the form.
+
+This site was tested across various browsers and browser sizes. Multiple times I used [W3 validator](https://validator.w3.org/) to debug and remove extra tags in my code. Using the contact page with an invalid email address you will get an message to correct it. Using a correct email and submitting will simply reset the form.
 
 ### Deployment
 
@@ -81,27 +74,20 @@ This website was deployed through Github Pages directly from the master branch. 
 
 •The social media icons come from [Fontawesome](https://fontawesome.com/)
 
+•The favicon was generated from [favicon.cc]([https://www.favicon.cc/](https://www.favicon.cc/))
+
 •The photos used in this site were obtained from googling album covers and Pink Floyd band pictures.
 
-•[Fountain](https://www.pixelstalk.net/pink-floyd-band-wallpapers/)
-
-•[group photo](https://ryanmenefee.wordpress.com/2013/02/03/pink-floyds-the-dark-side-of-the-moon/)
-
-•[Studio](https://www.newsweek.com/nick-mason-pink-floyds-longest-serving-officer-endless-river-and-end-pink-282205)
-
-•[Practice](http://getwallpapers.com/search?term=pink+floyd)
-
-•[Airplane Background](https://co.pinterest.com/pin/393924298626423026/)
-
-•[Back Catalog](https://elsiitk.files.wordpress.com/2015/02/women_music_pink_floyd_back_indoors_bodypainting_sitting_bands_album_covers_swimming_pools_70_s_albums_band_girls_catalogue_desktop_3065x1981_wallpaper-426783.jpg)
-
-•[Dark Side of the Moon](https://youtubemusicsucks.com/wp-content/uploads/2016/12/pink-floyd-the-dark-side-of-the-moon.jpg)
-
-•[Wish you were here](https://jbonamassa.com/wp-content/uploads/2016/10/pink-floyd-wish-you-were-here-wallpaper.jpg)
-
-•[The Wall](https://desertpeace.files.wordpress.com/2010/07/pink-floyd.jpg)
-
-•[Animals](https://thinkingscifi.files.wordpress.com/2014/07/pink-floyd-animals.jpg)
+- [Fountain](https://www.pixelstalk.net/pink-floyd-band-wallpapers/)
+- [Group photo](https://ryanmenefee.wordpress.com/2013/02/03/pink-floyds-the-dark-side-of-the-moon/)
+- [Studio](https://www.newsweek.com/nick-mason-pink-floyds-longest-serving-officer-endless-river-and-end-pink-282205)
+- [Practice](http://getwallpapers.com/search?term=pink+floyd)
+- [Airplane Background](https://co.pinterest.com/pin/393924298626423026/)
+- [Back Catalog](https://elsiitk.files.wordpress.com/2015/02/women_music_pink_floyd_back_indoors_bodypainting_sitting_bands_album_covers_swimming_pools_70_s_albums_band_girls_catalogue_desktop_3065x1981_wallpaper-426783.jpg)
+- [Dark Side of the Moon](https://youtubemusicsucks.com/wp-content/uploads/2016/12/pink-floyd-the-dark-side-of-the-moon.jpg)
+- [Wish you were here](https://jbonamassa.com/wp-content/uploads/2016/10/pink-floyd-wish-you-were-here-wallpaper.jpg)
+- [The Wall](https://desertpeace.files.wordpress.com/2010/07/pink-floyd.jpg)
+- [Animals](https://thinkingscifi.files.wordpress.com/2014/07/pink-floyd-animals.jpg)
 
 ### Acknowledgements
 
